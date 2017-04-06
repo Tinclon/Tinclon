@@ -1,0 +1,45 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" viewBox="0 0 400 400"
+	width="1024" height="1024">
+	
+	<defs>
+		<linearGradient id="linearGradient1">
+		  <stop style="stop-color:#ffffff;stop-opacity:0.3" offset="0.0" />
+		  <stop style="stop-color:#ffffff;stop-opacity:0.2" offset="0.5" />		  
+		  <stop style="stop-color:#ffffff;stop-opacity:0.1" offset="0.8" />
+		</linearGradient>
+		<radialGradient id="radialGradient1" xlink:href="#linearGradient1" 
+			cx="200" cy="200" r="250" fx="200" fy="200" 
+			gradientUnits="userSpaceOnUse" />
+	
+		<linearGradient id="linearGradient2">
+		  <stop style="stop-color:#ffffff;stop-opacity:0.2" offset="0.0" />
+		  <stop style="stop-color:#ffffff;stop-opacity:0.1" offset="0.6" />
+		  <stop style="stop-color:#ffffff;stop-opacity:0.0" offset="0.7" />		  		  
+		  <stop style="stop-color:#ffffff;stop-opacity:0.0" offset="0.8" />
+		</linearGradient>
+		<radialGradient id="radialGradient2" xlink:href="#linearGradient2" 
+			cx="200" cy="70" r="250" fx="200" fy="70" 
+			gradientUnits="userSpaceOnUse" />
+			
+		<linearGradient id="linearGradient3">
+		  <stop style="stop-color:#ffffff;stop-opacity:0.3" offset="0.0" />
+		  <stop style="stop-color:#ffffff;stop-opacity:0.25" offset="0.15" />		  
+		  <stop style="stop-color:#ffffff;stop-opacity:0.15" offset="0.25" />
+		  <stop style="stop-color:#ffffff;stop-opacity:0.05" offset="0.35" />
+		  <stop style="stop-color:#ffffff;stop-opacity:0.0" offset="0.45" />		  
+		</linearGradient>
+		<radialGradient id="radialGradient3" xlink:href="#linearGradient3" 
+			cx="200" cy="310" r="125" fx="200" fy="310" 
+			gradientTransform="translate(-160 0) scale(1.8 1.0)" 
+			gradientUnits="userSpaceOnUse" />			
+	</defs>
+
+	<g>
+		<circle cx="200" cy="200" r="200" style="fill:#1030dc" />
+		<ellipse cx="200" cy="140" rx="160" ry="125" style="fill:url(#radialGradient2)" />
+		<ellipse cx="200" cy="310" rx="125" ry="50" style="fill:url(#radialGradient3)" />
+		<circle cx="200" cy="200" r="200" style="fill:url(#radialGradient1)" />
+	</g>
+	
+</svg>
